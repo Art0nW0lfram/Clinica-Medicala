@@ -17,7 +17,7 @@ namespace ClinicaMedicala
 
         public void AfiseazaDetalii()
         {
-            Console.WriteLine($"Consultatie: {Pacient.Nume} cu {Medic.Nume}");
+            Console.WriteLine($"Consultație: {Pacient.Nume} cu {Medic.Nume}");
             Console.WriteLine($"Data: {Data.ToString("dd/MM/yyyy HH:mm")}");
         }
     }
